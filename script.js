@@ -16,6 +16,14 @@
         },
     }];
 
+    // async function executeScript() {
+    //     const resp = await fetch('https://randomuser.me/api/?results=100');
+    //     const json = await resp.json();
+    //     const users = json.results;
+
+    //     users.forEach(addUser);
+    // }
+
     function executeScript() {
         fetch('https://randomuser.me/api/?results=100')
             .then(resp => resp.json())
